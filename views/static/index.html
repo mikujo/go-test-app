@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>go-test-app</title>
+
+    <!-- vue.js -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
+    <!-- vue router -->
+    <script src="https://unpkg.com/vue-router@3.5.2/dist/bue-router.js"></script>
+    <!-- axios: HTTP通信用のJSライブラリ -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js" defer></script>
+
+    <link rel="stylesheet" type="text/css" href="/views/css/product.css">
+  </head>
+
+  <body>
+    <div id="app">
+      <ul>
+        <router-link tag="li" to="/">list</router-link>
+        <router-link tag="li" to="/search">search</router-link>
+      </ul>
+      <!-- 選択したコンポーネントを表示する箇所 -->
+      <router-view></router-view>
+    </div>
+  </body>
+  <script src="/views/js/main.js"></script>
+</html>
