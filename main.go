@@ -20,7 +20,7 @@ func serve() {
 	router.Static("/views", "./views")
 
 	/* ルーターの指定　URLへのアクセスに対して静的ページを返す */
-	router.StaticFS("/go-test", http.Dir("./views/static"))
+	router.StaticFS("/go-test-app", http.Dir("./views/static"))
 	/* 全ての商品情報のJSONを返す */
 	router.GET("/fetchAllProducts", controller.FetchAllProducts)
 	/* 1つの商品情報の状態のJSONを返す */
