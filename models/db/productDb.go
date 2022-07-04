@@ -3,9 +3,9 @@ package db
 import (
 	"fmt"
 
-	"github.com/jinzhu/gorm"
-
 	entity "go-test-app/models/entity"
+
+	"github.com/jinzhu/gorm"
 )
 
 func open() *gorm.DB {
