@@ -28,7 +28,7 @@ module.exports = {
       }, this)
     },
 
-    valudate() {
+    validate() {
       let isEnteredProductName = 0 < this.productName.length
       this.isEntered = isEnteredProductName
       return isEnteredProductName
