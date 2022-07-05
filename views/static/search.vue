@@ -2,7 +2,7 @@
   <div>
     <h1>search</h1>
 
-    <p>品名:<input type="text" name="productName" v-model="productName" v-on:change="doSearchProduct"
+    <!-- <p>品名:<input type="text" name="productName" v-model="productName" v-on:change="doSearchProduct"
       value="" size="40" placeholder="品名を入力してください" />
     </p>
     <hr>
@@ -23,7 +23,7 @@
           <td class="state">{{ labels[item.state] }}</td>
         </tr>
       </tbody>
-    </table>
+    </table> -->
   </div>
 </template>
-<script src="/views/js/search.js" defer></script>
+<!-- <script src="/views/js/search.js" defer></script> -->

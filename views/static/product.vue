@@ -2,7 +2,7 @@
   <div>
     <h1>買い物リスト</h1>
 
-    <label v-for="label in options" v-bind:key="label.value">
+    <!-- <label v-for="label in options" v-bind:key="label.value">
       <input type="radio" v-model="current" v-bind:value="label.value">{{ label.label }}
     </label>
     <p>品名:<input type="text" name="productName" v-model="productName" v-bind:class="{'alert-color': !validate}"
@@ -34,7 +34,7 @@
           </td>
         </tr>
       </tbody>
-    </table>
+    </table> -->
   </div>
 </template>
-<script src="/views/js/product.js" defer></script>
+<!-- <script src="/views/js/product.js" defer></script> -->
